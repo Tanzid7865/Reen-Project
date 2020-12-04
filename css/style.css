@@ -1,0 +1,247 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Lato', sans-serif; 
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* REEN PROJECT CSS Start BTAN */
+
+/* Header Section Start BTAN */
+
+.header-section{
+	width: 100%;
+    
+}
+.top-header{
+	width: 100%;
+	background: #f5f7fa;
+	padding: 5px 0px;
+}
+.top-header .info-inner ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+.top-header .info-inner ul li{
+	list-style: none;
+	display:inline-block;
+
+}
+.top-header .info-inner ul li a {
+     font-size: 14px;
+     font-weight: 600;
+     color: #506a85;
+     margin-right: 15px;
+
+}
+.top-header .info-inner ul li a:hover{
+    color: #00bc9c;
+
+}
+.top-header .info-inner ul li a .fa{
+     margin-right: 6px; 
+}
+.top-header .social-icons{
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+
+}
+.top-header .social-icons li{
+	list-style: none;
+	display:inline-block;
+
+}
+.top-header .social-icons li a {
+     font-size: 14px;
+     font-weight: 600;
+     color: #506a85;
+     margin-left: 20px;
+
+}
+.top-header .social-icons li a:hover{
+    color: #00bc9c;
+
+}
+.main-menu{
+	width: 100%;
+	padding: 10px;
+}
+
+.main-menu .bg-light{
+	background: transparent !important;
+}
+.main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #506a85;
+}
+.main-menu .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform:uppercase;
+	margin:0px 15px;
+	transition: 0.5s;
+}
+.main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+
+}
+.main-menu .fa-search{
+	color: #506a85;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/* Header Section End BTAN */
+
+/* Slider Section Start BTAN */
+.slider-section{
+	width: 100%;
+}
+
+.slider-section .carousel-caption{
+	bottom: 30%;
+}
+.slider-section .carousel-caption h2 {
+    font-size: 50px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.slider-section .carousel-caption p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+}
+.slider-section .carousel-caption .btn-info {
+    padding: 12px 40px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    color: #fff;
+    transition: .5s;
+}
+.slider-section .carousel-caption .btn-info:hover{
+    background: transparent;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+}
+
+/* Slider Section End BTAN */
+
+
+
+/* Who-we Section Start BTAN */
+
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we .title{
+	width: 100%;
+	text-align: center;
+	padding: 0 0 40px;
+}
+.who-we .title h2{
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #506a85;
+
+}
+.who-we .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+
+
+}
+.who-we .media{
+	padding: 30px 0px 0px;
+ 
+}
+.who-we .media-body{
+    padding: 0px 10px;
+}
+
+.who-we .media-body h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #506a85;
+    line-height: 30px;
+}
+.who-we .media-body p{
+	font-size: 14px;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+/* Who-we Section End BTAN */
+
+
+
+/* Portfolio Section Start BTAN */
+
+.portfolio{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.portfolio .title{
+	width: 100%;
+	text-align: center;
+	margin: 0 0 60px;
+}
+
+.portfolio .title h2{
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #506a85;
+
+}
+.portfolio .title p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #a3b1bf;
+
+}
+.portfolio .card-body{
+	text-align: center;
+
+}
+.portfolio .card-body h5{
+	font-size: 15px;
+    font-weight: 700;
+    color: #506a85;
+    margin-bottom: 5px 0px;
+
+}
+.portfolio .card-body p{
+    font-size: 13px;
+    line-height: 24px;
+    color: #a3b1bf;
+}
+
+/* Portfolio Section End BTAN */
+
+/* REEN PROJECT CSS End BTAN */
